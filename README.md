@@ -26,11 +26,11 @@ Python's official library that provides this tool is [venv](https://docs.python.
 <p align="left">
 To create a virtual environmet, type:</p>
 
+
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
 
-<br>
 
 ## TODO
 <p align="left">
