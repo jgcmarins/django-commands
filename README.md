@@ -40,7 +40,7 @@ Now that we have created our virtual environment, let's active it:
 source <venv>/bin/activate
 ```
 
-Where *<venv>* is the */path/to/new/virtual/environment*.
+Where *\<venv\>* is the */path/to/new/virtual/environment*.
 
 ###### Deactivation
 To deactive, just type:
