@@ -21,7 +21,7 @@ This isn't the official django tutorial. It's just a simplified way to create a 
 
 ## Description
 <p align="left">
-When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help me and anyone else to keep the right way when starting a new django project.
+When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new django project.
 </p>
 
 ## Setup
