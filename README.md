@@ -25,11 +25,10 @@ So, a good pratice, is to create our project inside a virtual environment. Why? 
 Python's official library that provides this tool is [venv](https://docs.python.org/3/library/venv.html).
 <p align="left">
 To create a virtual environmet, type:</p>
-
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
-
+<br>
 
 ## TODO
 <p align="left">
