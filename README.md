@@ -1,6 +1,9 @@
 # django-commands
 A repository that provides information about on how to develop web apps with django.
 
+# ATTENTION
+This isn't the official django tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about django, it's highly recommended that you visit django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
+
 ## Index
 - [Index](#index)
 - [Description](#description)
@@ -10,6 +13,8 @@ A repository that provides information about on how to develop web apps with dja
 		- [Deactivation](#deactivation)
 	- [Installation](#installation)
 - [Starting our project](#starting-our-project)
+- [Understanding our project](#understanding-our-project)
+	- [manage.py](#manage.py)
 - [Creating an app](#creating-an-app)
 - [Contribution](#contribution)
 - [License](#license)
@@ -65,6 +70,24 @@ django-admin startproject <project_name>
 ```
 
 Don't forget to choose a good name :wink:
+
+## Understanding our project
+So far so good? Alright! At this point, our directory shall look like this:
+
+```
+project_name/
+    manage.py
+    project_name/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+```
+
+#### manage.py
+<p align="left">
+To be continued...
+</p>
 
 ## Creating an app
 <p align="left">
