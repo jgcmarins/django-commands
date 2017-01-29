@@ -1,17 +1,13 @@
-
-pip install django -> instalar django dentro do ambiente virtual
-
-
-
-django-admin startproject <project_name> -> criar projeto
-
 python manage.py startapp <app_name> -> criar novo app dentro do projeto
+
 
 python manage.py makemigrations <app_name> -> criar/atualizar banco de dados
 python manage.py migrate -> commit no banco de dados
 
+
 pip install pyscopg2 -> instala o conector com o banco do postgresql
 sudo apt-get install postgresql-server-dev-X.y
 sudo apt-get install pythonX.y-dev
+
 
 python manage.py shell -> abre um shell para dar comandos que referenciem os models do projeto
