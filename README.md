@@ -40,5 +40,5 @@ To be continued...
 I am still learning django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
 </p>
 
-## LICENSE
+## License
 [GPL-3.0](/LICENSE)
