@@ -22,7 +22,7 @@ First things first. Let's setup our work environment.</p>
 So, a good pratice, is to create our project inside a virtual environment. Why? Doing this, we protect all projects from each other. In other words, each django project can have its own independent set of installed packages.
 </p>
 
-###### venv
+#### venv
 Python's official library that provides this tool is [venv](https://docs.python.org/3/library/venv.html).
 To create a virtual environmet, type:
 
