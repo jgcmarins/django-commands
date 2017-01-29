@@ -61,7 +61,7 @@ pip install django
 Django is a powerful framework to build web apps. It helps us building as many web apps as needed. But there is something before our web apps: our **BIG** project. The project is the whole application and it can hold lots of little apps. To start our project, type:
 
 ```
-django-admin startproject **<project_name>**
+django-admin startproject <project_name>
 ```
 
 Don't forget to choose a good name :wink:
