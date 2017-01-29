@@ -1,9 +1,7 @@
-python3.5 -m venv env -> criar ambientes virtuais
-
-source env/bin/activate -> ativar ambiente virtual
-deactivate -> desativa ambiente virtual
 
 pip install django -> instalar django dentro do ambiente virtual
+
+
 
 django-admin startproject <project_name> -> criar projeto
 

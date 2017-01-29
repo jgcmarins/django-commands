@@ -6,6 +6,9 @@ A repository that provides information about on how to develop web apps with dja
 - [Description](#description)
 - [Setup](#setup)
 	- [venv](#venv)
+		- [Activation](#activation)
+		- [Deactivation](#deactivation)
+- [Installation](#installation)
 - [TODO](#todo)
 - [Contribution](#contribution)
 - [License](#license)
@@ -30,10 +33,24 @@ To create a virtual environmet, type:
 python3 -m venv /path/to/new/virtual/environment
 ```
 
-## TODO
-<p align="left">
-To be continued...
-</p>
+###### Activation
+Now that we have created our virtual environment, let's active it:
+
+```
+source <venv>/bin/activate
+```
+
+Where *<venv>* is the */path/to/new/virtual/environment*.
+
+###### Deactivation
+To deactive, just type:
+
+```
+deactivate
+```
+
+## Installation
+Alright, now that we have our work environment, let's install django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment.
 
 ## Contribution
 <p align="left">
