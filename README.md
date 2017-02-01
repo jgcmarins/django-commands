@@ -1,8 +1,8 @@
 # django-commands
-A repository that provides information about how to start a new project in django.
+A repository that provides information about how to start a new project in Django.
 
 # ATTENTION
-This isn't the official django's tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about django, it's highly recommended that you visit django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
+This isn't the official Django's tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about Django, it's highly recommended that you visit Django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
 
 ## Index
 - [Index](#index)
@@ -17,21 +17,21 @@ This isn't the official django's tutorial. It's just a simplified way to create 
 - [Understanding our project](#understanding-our-project)
 	- [manage.py](#manage.py)
 - [Creating an app](#creating-an-app)
-    - [app vs. model](#app-vs.-model)
+    - [app vs model](#app-vs-model)
     - [Example](#example)
 - [Contribution](#contribution)
 - [License](#license)
 
 ## Description
 <p align="left">
-When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new project in django.
+When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new project in Django.
 </p>
 
 ## Setup
 <p align="left">
 First things first. Let's setup our work environment.</p>
 <p align="left">
-So, a good pratice, is to create our project inside a virtual environment. Why? Doing this, we protect all projects from each other. In other words, each django project can have its own independent set of installed packages.
+So, a good pratice, is to create our project inside a virtual environment. Why? Doing this, we protect all projects from each other. In other words, each Django project can have its own independent set of installed packages.
 </p>
 
 #### venv
@@ -59,7 +59,7 @@ deactivate
 ```
 
 #### Installation
-Alright, now that we have our work environment, let's install django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment. To **install** django, type:
+Alright, now that we have our work environment, let's install Django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment. To **install** Django, type:
 
 ```
 pip3 install django
@@ -75,7 +75,7 @@ django-admin startproject <project_name>
 Don't forget to choose a good name :wink:
 
 #### django-admin
-From django's official tutorial:
+From Django's official tutorial:
 > **django-admin** is Django’s command-line utility for administrative tasks.
 
 ## Understanding our project
@@ -92,18 +92,17 @@ project_name/
 ```
 
 #### manage.py
-From django's official tutorial:
+From Django's official tutorial:
 > **manage.py**: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about **manage.py** in [django-admin and manage.py](https://docs.djangoproject.com/en/1.10/ref/django-admin/).
 
 ## Creating an app
-Alright! Now it's time to put some **apps** inside our project.
-Just in case you don't remember, an **app** is the whole system for a **model**.
+Alright! Now it's time to put some **apps** inside our project.Just in case you don't remember, an **app** is the whole system for a **model**.
 
-#### app vs. model
-From django's official tutorial:
+#### app vs model
+From Django's official tutorial:
 > A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
 
-So, when we tell django to start a new app, it creates a set of files and dependencies which will support all work on a model. The command to create a new app is:
+So, when we tell Django to start a new app, it creates a set of files and dependencies which will support all work on a model. The command to create a new app is:
 
 ```
 python3 manage.py startapp <app_name>
@@ -145,7 +144,7 @@ MyCommerce/:
 
 ## Contribution
 <p align="left">
-I am still learning django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
+I am still learning Django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
 </p>
 
 ## License
