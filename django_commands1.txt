@@ -1,7 +1,2 @@
-python manage.py makemigrations <app_name> -> criar/atualizar banco de dados
-
-
-python manage.py migrate -> commit no banco de dados
-
 
 python manage.py runserver

@@ -20,6 +20,8 @@ This isn't the official Django's tutorial. It's just a simplified way to create 
     - [app vs model](#app-vs-model)
     - [Example](#example)
 - [Migrations](#migrations)
+    - [makemigrations](#makemigrations)
+    - [migrate](#migrate)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -37,7 +39,7 @@ So, a good pratice, is to create our project inside a virtual environment. Why? 
 
 #### venv
 Python's official library that provides this tool is [venv](https://docs.python.org/3/library/venv.html).
-To create a virtual environmet, type:
+To create a virtual environmet, run:
 
 ```
 python3 -m venv /path/to/new/virtual/environment
@@ -53,21 +55,21 @@ source <venv>/bin/activate
 Where *\<venv\>* is */path/to/new/virtual/environment*.
 
 ###### Deactivation
-To deactive, just type:
+To deactive, just run:
 
 ```
 deactivate
 ```
 
 #### Installation
-Alright, now that we have our work environment, let's install Django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment. To **install** Django, type:
+Alright, now that we have our work environment, let's install Django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment. To **install** Django, run:
 
 ```
 pip3 install django
 ```
 
 ## Starting our project
-Django is a powerful framework to build web apps. It helps us building as many web apps as needed. But there is something on top of our web apps: our **BIG** project. The project is the web application itself and it holds lots of apps. To start our project, type:
+Django is a powerful framework to build web apps. It helps us building as many web apps as needed. But there is something on top of our web apps: our **BIG** project. The project is the web application itself and it holds lots of apps. To start our project, run:
 
 ```
 django-admin startproject <project_name>
@@ -146,13 +148,28 @@ MyCommerce/:
 ## Migrations
 Well done! We're almost ready to start developing our web application!
 
+So, why Django is incredibly easy? One of the greatest things in Django is it's ability to handle lots of database's bureaucracy for us. It comes with an inner **SQLite** ready and working. All setted up.
+
+Therefore, when we create an app and add some information to it's model, we are telling Django how is our database schema. 
+
+#### makemigrations
+To tell Django that our database schema is ready or updated, we should run the following command:
+
+```
+python3 manage.py makemigrations <app_name>
+```
+
+#### migrate
+And to tell Django "ok, now you can apply database changes", we run:
+
+```
+python3 manage.py migrate
+```
+
 ## Contribution
 <p align="left">
 I am still learning Django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
 </p>
-
-## TODO
-- []
 
 ## License
 [GPL-3.0](/LICENSE)
