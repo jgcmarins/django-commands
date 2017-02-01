@@ -13,7 +13,7 @@ This isn't the official django tutorial. It's just a simplified way to create a 
 		- [Deactivation](#deactivation)
 	- [Installation](#installation)
 - [Starting our project](#starting-our-project)
-    -[django-admin](#django-admin)
+    - [django-admin](#django-admin)
 - [Understanding our project](#understanding-our-project)
 	- [manage.py](#manage.py)
 - [Creating an app](#creating-an-app)
