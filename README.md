@@ -144,12 +144,15 @@ MyCommerce/:
 ```
 
 ## Migrations
-To be continued...
+Well done! We're almost ready to start developing our web application!
 
 ## Contribution
 <p align="left">
 I am still learning Django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
 </p>
+
+## TODO
+- []
 
 ## License
 [GPL-3.0](/LICENSE)
