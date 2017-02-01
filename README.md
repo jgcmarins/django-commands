@@ -22,6 +22,7 @@ This isn't the official Django's tutorial. It's just a simplified way to create 
 - [Migrations](#migrations)
     - [makemigrations](#makemigrations)
     - [migrate](#migrate)
+- [Let's see things working](#lets-see-things-working)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -153,7 +154,7 @@ So, why Django is incredibly easy? One of the greatest things in Django is it's 
 Therefore, when we create an app and add some information to it's model, we are telling Django how is our database schema. 
 
 #### makemigrations
-To tell Django that our database schema is ready or updated, we should run the following command:
+To tell Django that our database schema is ready or updated, we run the following command:
 
 ```
 python3 manage.py makemigrations <app_name>
@@ -164,6 +165,13 @@ And to tell Django "ok, now you can apply database changes", we run:
 
 ```
 python3 manage.py migrate
+```
+
+## Let's see things working
+Finally, to checkout our web application running:
+
+```
+python3 manage.py runserver
 ```
 
 ## Contribution
