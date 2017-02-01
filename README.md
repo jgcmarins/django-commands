@@ -19,6 +19,7 @@ This isn't the official Django's tutorial. It's just a simplified way to create 
 - [Creating an app](#creating-an-app)
     - [app vs model](#app-vs-model)
     - [Example](#example)
+- [Migrations](#migrations)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -66,7 +67,7 @@ pip3 install django
 ```
 
 ## Starting our project
-Django is a powerful framework to build web apps. It helps us building as many web apps as needed. But there is something before our web apps: our **BIG** project. The project is the whole application and it can hold lots of little apps. To start our project, type:
+Django is a powerful framework to build web apps. It helps us building as many web apps as needed. But there is something on top of our web apps: our **BIG** project. The project is the web application itself and it holds lots of apps. To start our project, type:
 
 ```
 django-admin startproject <project_name>
@@ -96,20 +97,20 @@ From Django's official tutorial:
 > **manage.py**: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about **manage.py** in [django-admin and manage.py](https://docs.djangoproject.com/en/1.10/ref/django-admin/).
 
 ## Creating an app
-Alright! Now it's time to put some **apps** inside our project.Just in case you don't remember, an **app** is the whole system for a **model**.
+Alright! Now it's time to put some **apps** inside our project. But first, let's understand the difference between an **app** and a **model**.
 
 #### app vs model
 From Django's official tutorial:
 > A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
 
-So, when we tell Django to start a new app, it creates a set of files and dependencies which will support all work on a model. The command to create a new app is:
+So, when we tell Django to start a an app, it creates a set of files and dependencies which will support all work on a model. The command to create a new app is:
 
 ```
 python3 manage.py startapp <app_name>
 ```
 
 #### Example
-For example, we are writing an web application that controls an e-commerce, our project name is *MyCommerce* and we have this two apps, *Cart* and *Product*. Our project directory should look like this:
+For example, we are writing a web application that manages an e-commerce. So, our project name is *MyCommerce* and we have this two apps, *Cart* and *Product*. Our project directory should look like this:
 
 ```
 MyCommerce/:
@@ -141,6 +142,9 @@ MyCommerce/:
         tests.py
         views.py
 ```
+
+## Migrations
+To be continued...
 
 ## Contribution
 <p align="left">
