@@ -151,7 +151,7 @@ So, why Django is incredibly easy? One of the greatest things in Django is it's 
 Therefore, when we create an app and add some information to it's model, we are telling Django how is our database schema. 
 
 #### makemigrations
-To tell Django that our database schema is ready or updated, we run the following command:
+To tell Django that our database schema (for a single model) is ready or updated, we run the following command:
 
 ```
 python3 manage.py makemigrations <app_name>
