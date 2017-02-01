@@ -23,20 +23,17 @@ This isn't the official Django's tutorial. It's just a simplified way to create 
     - [makemigrations](#makemigrations)
     - [migrate](#migrate)
 - [Let's see things working](#lets-see-things-working)
+- [Congratulations and thanks](#congratulations-and-thanks)
 - [Contribution](#contribution)
 - [License](#license)
 
 ## Description
-<p align="left">
 When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new project in Django.
-</p>
 
 ## Setup
-<p align="left">
-First things first. Let's setup our work environment.</p>
-<p align="left">
+First things first. Let's setup our work environment.
+
 So, a good pratice, is to create our project inside a virtual environment. Why? Doing this, we protect all projects from each other. In other words, each Django project can have its own independent set of installed packages.
-</p>
 
 #### venv
 Python's official library that provides this tool is [venv](https://docs.python.org/3/library/venv.html).
@@ -174,10 +171,11 @@ Finally, to checkout our web application running:
 python3 manage.py runserver
 ```
 
+## Congratulations and thanks
+Congratulations! Now everything is working, ready and waiting for your code. Thanks for arriving here. Hope you enjoyed this little tutorial.
+
 ## Contribution
-<p align="left">
 I am still learning Django so, please, if you find any wrong information, submit an issue or create a pull request. Thanks! :octocat:
-</p>
 
 ## License
 [GPL-3.0](/LICENSE)
