@@ -17,6 +17,8 @@ This isn't the official django's tutorial. It's just a simplified way to create 
 - [Understanding our project](#understanding-our-project)
 	- [manage.py](#manage.py)
 - [Creating an app](#creating-an-app)
+    - [app vs. model](#app-vs.-model)
+    - [Example](#example)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -37,7 +39,7 @@ Python's official library that provides this tool is [venv](https://docs.python.
 To create a virtual environmet, type:
 
 ```
-python3.5 -m venv /path/to/new/virtual/environment
+python3 -m venv /path/to/new/virtual/environment
 ```
 
 ###### Activation
@@ -60,7 +62,7 @@ deactivate
 Alright, now that we have our work environment, let's install django ~~finally~~. Remember: with virtual environment active, everything we install, will be installed inside our virtual environment. To **install** django, type:
 
 ```
-pip install django
+pip3 install django
 ```
 
 ## Starting our project
@@ -94,9 +96,52 @@ From django's official tutorial:
 > **manage.py**: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about **manage.py** in [django-admin and manage.py](https://docs.djangoproject.com/en/1.10/ref/django-admin/).
 
 ## Creating an app
-<p align="left">
-To be continued...
-</p>
+Alright! Now it's time to put some **apps** inside our project.
+Just in case you don't remember, an **app** is the whole system for a **model**.
+
+#### app vs. model
+From django's official tutorial:
+> A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
+
+So, when we tell django to start a new app, it creates a set of files and dependencies which will support all work on a model. The command to create a new app is:
+
+```
+python3 manage.py startapp <app_name>
+```
+
+#### Example
+For example, we are writing an web application that controls an e-commerce, our project name is *MyCommerce* and we have this two apps, *Cart* and *Product*. Our project directory should look like this:
+
+```
+MyCommerce/:
+    Cart/
+        admin.py
+        apps.py
+        __init__.py
+        migrations/
+            __init__.py
+        models.py
+        tests.py
+        views.py
+    manage.py
+    MyCommerce/
+        __init__.py
+        __pycache__/
+            __init__.cpython-35.pyc
+            settings.cpython-35.pyc
+        settings.py
+        urls.py
+        wsgi.py
+    Product/
+        admin.py
+        apps.py
+        __init__.py
+        migrations/
+            __init__.py
+        models.py
+        tests.py
+        views.py
+```
 
 ## Contribution
 <p align="left">
