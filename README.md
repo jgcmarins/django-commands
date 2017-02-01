@@ -1,8 +1,8 @@
 # django-commands
-A repository that provides information about on how to develop web apps with django.
+A repository that provides information about how to start a new project in django.
 
 # ATTENTION
-This isn't the official django tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about django, it's highly recommended that you visit django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
+This isn't the official django's tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about django, it's highly recommended that you visit django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
 
 ## Index
 - [Index](#index)
@@ -22,7 +22,7 @@ This isn't the official django tutorial. It's just a simplified way to create a 
 
 ## Description
 <p align="left">
-When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new django project.
+When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new project in django.
 </p>
 
 ## Setup
@@ -37,7 +37,7 @@ Python's official library that provides this tool is [venv](https://docs.python.
 To create a virtual environmet, type:
 
 ```
-python3 -m venv /path/to/new/virtual/environment
+python3.5 -m venv /path/to/new/virtual/environment
 ```
 
 ###### Activation
