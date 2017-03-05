@@ -26,6 +26,7 @@ This isn't the official Django's tutorial. It's just a simplified way to create 
 - [Congratulations and thanks](#congratulations-and-thanks)
 - [Contribution](#contribution)
 - [License](#license)
+- [TODO](#todo)
 
 ## Description
 When we work with frameworks, there are some basic rules that we may need to follow. The purpose of this repository is to help us keeping the right way when starting a new project in Django.
@@ -179,3 +180,6 @@ I am still learning Django so, please, if you find any wrong information, submit
 
 ## License
 [GPL-3.0](/LICENSE)
+
+## TODO
+- admin page
