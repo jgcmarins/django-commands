@@ -1,8 +1,5 @@
-# django-commands
-A repository that provides information about how to start a new project in Django.
-
 # ATTENTION
-This isn't the official Django's tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about Django, it's highly recommended that you visit Django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
+This is not any official Django's tutorial. It's just a simplified way to create a new project and start developing fast, avoiding waste of time with some mistaken commands. If you don't know anything about Django, it's highly recommended that you visit Django's official website [https://www.djangoproject.com/](https://www.djangoproject.com/).
 
 ## Index
 - [Index](#index)
